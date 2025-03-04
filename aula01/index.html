@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina inicial</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Boas Vindas</h1>
+        
+        <input type="text" id="meuInput" placeholder="Digite seu nome aqui:">
+        
+        <p>Vamos personalizar sua saudação usando JavaScript</p>
+        
+        <div class="saudacao" id="mensagemSaudacao">Olá visitante</div>
+
+        <button onclick="mudarNome()">Personalizar saudacao!</button>
+
+    </div>
+
+    <script>
+        function mudarNome(){
+            let nome = document.getElementById("meuInput").value;
+            document.getElementById("mensagemSaudacao").innerHTML = "Olá " + nome;
+        }
+    </script>
+</body>
+</html>
