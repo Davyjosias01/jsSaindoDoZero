@@ -14,7 +14,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 800px;
+    max-width: 600px;
     border: 2px solid #8B7D70;
 }
 h1 {
@@ -25,7 +25,7 @@ p {
     font-size: 1.1em;
 }
 button {
-    background-color: #60041A;
+    background-color: #798252;
     color: #F4F0EA;
     padding: 10px 20px;
     border: none;
@@ -33,24 +33,12 @@ button {
     cursor: pointer;
     font-size: 1em;
     transition: background-color 0.3s ease;
-    /*margin-top: 10px;*/
-    margin: 10px;
+    margin-top: 10px;
 }
 button:hover {
-    background-color: #A34743;
+    background-color: #CCD595;
+    color: #504e4d;
 }
-.buttons{
-    display: flex;
-    justify-content: center;
-    
-}
-button[class="inputApagaTarefa"]:hover{
-    background-color: red;
-}
-button[class="inputAdicionaTarefa"]:hover{
-    background-color: green;
-}
-
 ul {
     list-style: none;
     padding: 0;
@@ -70,8 +58,8 @@ input[type="text"] {
     padding: 10px;
     width: 80%;
     max-width: 500px;
-    margin: 10px;
-    /*margin-bottom: 10px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: 2px solid #8B7D70;
     border-radius: 5px;
     font-size: 1em;
@@ -83,7 +71,40 @@ input[type="text"]:focus {
     border-color: #60041A;
     box-shadow: inset 0 2px 4px rgba(96, 4, 26, 0.3);
 }
-.inputs{
-    display: flex;
-    margin: 5px;
+button.remover {
+    background-color: #A34743;
+    color: #F4F0EA;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+button.remover:hover {
+    background-color: #60041A;
+}
+button.editar {
+    background-color: #331F19;
+    color: #F4F0EA;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+button.editar:hover {
+    background-color: #744d41;
+}
+
+.botao_lista {
+    background-color: #A34743;
+}
+
+.botao_lista:hover {
+    background-color: #60041A;
+    color: #F4F0EA;
 }
