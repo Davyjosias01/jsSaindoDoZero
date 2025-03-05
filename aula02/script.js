@@ -1,6 +1,6 @@
 function adicionarTarefa() {
 
-    //Declara o valor da variável "mensagem"
+    //Declara o valor da variável "mensagemSucesso e da mensagemErro"
     let mensagemSucesso = "Tarefa adicionada com sucesso.";
     let mensagemErro = "Não foi possível acidionar a tarefa!"
 
